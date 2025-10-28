@@ -45,19 +45,23 @@ gerador-de-senha/
     pip install -r requirements.txt
 
 🚀 Uso
+
 Gerar uma senha simples:
-    python src/main.py --length 16
+    - python src/main.py --length 16
 
 Gerar uma senha com números e símbolos:
-    python src/main.py --length 20 --no-lower
+    - python src/main.py --length 20 --no-lower
 
 Salvar a senha em arquivo:
-    python src/main.py --length 20 --save passwords.txt
+    - python src/main.py --length 20 --save passwords.txt
 
 🧪 Testes
+
 Para executar os testes:
-    pytest
+    - pytest
+
 Exemplo de testes básicos está em tests/test_generator.py.
 
 🧑‍💻 Créditos
+
 Projeto desenvolvido por Alvaro Ito com o auxílio do ChatGPT (OpenAI), como parte do aprendizado prático de Python e boas práticas de desenvolvimento de software.
