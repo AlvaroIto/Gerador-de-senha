@@ -47,18 +47,18 @@ gerador-de-senha/
 🚀 Uso
 
 Gerar uma senha simples:
-    - python src/main.py --length 16
+    python src/main.py --length 16
 
 Gerar uma senha com números e símbolos:
-    - python src/main.py --length 20 --no-lower
+    python src/main.py --length 20 --no-lower
 
 Salvar a senha em arquivo:
-    - python src/main.py --length 20 --save passwords.txt
+    python src/main.py --length 20 --save passwords.txt
 
 🧪 Testes
 
 Para executar os testes:
-    - pytest
+    pytest
 
 Exemplo de testes básicos está em tests/test_generator.py.
 
